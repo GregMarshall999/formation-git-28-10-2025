@@ -10,6 +10,7 @@ public class DemoApplication {
 		new PrintWelcome();
 
 		System.out.println("Test, 2");
+		System.out.println("Un autre message");
 
 		//SpringApplication.run(DemoApplication.class, args);
 	}
