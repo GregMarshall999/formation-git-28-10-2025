@@ -9,7 +9,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		new PrintWelcome();
 
-		System.out.println("Test");
+		System.out.println("Test, 2");
+		System.out.println(Status.NOT_WORKING);
 
 		//SpringApplication.run(DemoApplication.class, args);
 	}
