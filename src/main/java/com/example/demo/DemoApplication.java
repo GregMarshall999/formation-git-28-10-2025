@@ -13,6 +13,14 @@ public class DemoApplication {
 		System.out.println("Un autre message");
 		System.out.println("Commit avant checkout vers dev, puis Un commit depuis dev");
 
+		int chiffre = 1;
+		if(chiffre % 2 == 0) {
+			System.out.println("Pair");
+		}
+		else {
+			System.out.println("Impair");
+		}
+
 		//SpringApplication.run(DemoApplication.class, args);
 	}
 
