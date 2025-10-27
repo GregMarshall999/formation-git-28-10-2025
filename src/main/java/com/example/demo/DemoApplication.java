@@ -10,7 +10,6 @@ public class DemoApplication {
 		new PrintWelcome();
 
 		System.out.println("Test, 2");
-		System.out.println(Status.NOT_WORKING);
 
 		//SpringApplication.run(DemoApplication.class, args);
 	}
