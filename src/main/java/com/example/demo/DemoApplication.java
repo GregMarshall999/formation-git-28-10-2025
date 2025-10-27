@@ -1,10 +1,12 @@
 package com.example.demo;
 
+import com.example.toggle.Switchable;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DemoApplication {
+	private static Switchable button;
 
 	public static void main(String[] args) {
 		new PrintWelcome();
