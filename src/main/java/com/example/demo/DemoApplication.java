@@ -28,6 +28,8 @@ public class DemoApplication {
 		button.toggleOn();
 		System.out.println(button.getValue());
 
+		System.out.println("Du contenu temporaire");
+
 		//SpringApplication.run(DemoApplication.class, args);
 	}
 
