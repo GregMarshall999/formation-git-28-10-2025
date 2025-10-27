@@ -11,6 +11,7 @@ public class DemoApplication {
 
 		System.out.println("Test, 2");
 		System.out.println("Un autre message");
+		System.out.println("Commit avant checkout vers dev");
 
 		//SpringApplication.run(DemoApplication.class, args);
 	}
