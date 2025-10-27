@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import com.example.temp.Button;
 import com.example.toggle.Switchable;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,6 +23,10 @@ public class DemoApplication {
 		else {
 			System.out.println("Impair ou non chiffre");
 		}
+
+		button = new Button(10, 100);
+		button.toggleOn();
+		System.out.println(button.getValue());
 
 		//SpringApplication.run(DemoApplication.class, args);
 	}
