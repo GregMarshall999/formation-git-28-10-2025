@@ -32,6 +32,8 @@ public class DemoApplication {
 
 		System.out.println("Before origin master update");
 
+		//Un commentaire avant la syncronisation
+
 		//SpringApplication.run(DemoApplication.class, args);
 	}
 
