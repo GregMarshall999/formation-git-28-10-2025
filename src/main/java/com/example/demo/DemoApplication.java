@@ -41,9 +41,10 @@ public class DemoApplication {
 		//Com pre rebase
 		//Com post rebase
 
+		//Le compteur s'incrémente pour compter jusqu'a 10
 		int count = 0;
 		for (int i = 0; i < 10; i++) {
-			count += i;
+			count += 1;
 		}
 		System.out.println(count);
 	}
