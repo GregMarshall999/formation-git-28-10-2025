@@ -48,7 +48,7 @@ public class DemoApplication {
 		}
 		System.out.println(count);
 
-		//Commentaire conflit
+		//commentaire depuis vscode
 	}
 
 }
