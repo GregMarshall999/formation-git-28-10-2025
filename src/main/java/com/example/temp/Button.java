@@ -2,6 +2,9 @@ package com.example.temp;
 
 import com.example.toggle.Switchable;
 
+/*
+ * Un bouton interrupteur
+ */
 public class Button implements Switchable {
     private final int posX;
     private final int posY;
