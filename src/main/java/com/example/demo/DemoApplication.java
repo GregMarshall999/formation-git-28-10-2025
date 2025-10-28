@@ -43,7 +43,7 @@ public class DemoApplication {
 
 		int count = 0;
 		for (int i = 0; i < 10; i++) {
-			count += i;
+			count += 1;
 		}
 		System.out.println(count);
 	}
